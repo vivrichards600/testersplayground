@@ -19,11 +19,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
         <p>The 'Sources' tab enables you to view and edit various assets for the page.</p>
         
 
-      <h2>Input the code of a newly added asset!</h2>
+      <h2>Input the code returned from a newly added asset!</h2>
       <div class="table-responsive">
-        <p>The field below requires the name of a newly added asset in order to move on to the next challenge. Can you find it within the assets?</p>        
+        <p>The field below requires a code which is returned from a newly added function. Input the code in order to move on to the next challenge. Can you find it within the assets?</p>        
         <form action="sources-1c7dc822-c3ba-4a32-814a-75c46f593540.php" method="post">
-        Enter the secret code *: <input type="text" size="40" class="inputbox" name="valuesadded">
+        Enter the code *: <input type="text" size="40" class="inputbox" name="valuesadded">
         <input type="submit">
         </form>
         <label><?php echo $usermessage; ?></label>
