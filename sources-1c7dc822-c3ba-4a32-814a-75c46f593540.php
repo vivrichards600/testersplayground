@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 <?php include '_includes/header.php';?>
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
         <h1 class="h2">Sources</h1>    
-        <p>The 'Sources' tab enables you to view an edit various assets for the page.</p>
+        <p>The 'Sources' tab enables you to view and edit various assets for the page.</p>
         
 
       <h2>Input the code of a newly added asset!</h2>
