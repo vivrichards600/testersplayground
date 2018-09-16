@@ -7,8 +7,7 @@
       
       <p>This web application was designed to help testers become more familiar with Chrome DevTools and it's ever growing list of fantastic features.</p>
       <p>You will need to get to know many of the features and their uses in order to progress through each challenge.<p>
-      
-
+     
       <h2>Getting Started</h2>
       <div class="table-responsive">
         <p>To get started please ensure you are visiting this web page using the Google Chrome web browser.</p>
