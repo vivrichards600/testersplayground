@@ -15,8 +15,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
 <?php include '_includes/header.php';?>
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+        <h1 class="h2">Challenge Five</h1>        
+      </div>
         <h1 class="h2">Sources</h1>    
-        <p>The 'Sources' tab enables you to view an edit various assets for the page.</p>
+        <p>The 'Sources' tab enables you to view and edit various assets for the page.</p>
         
 
       <h2>Input the code from within a newly added asset!</h2>
@@ -34,5 +37,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 </div>
 <!--add this value in the secret code field to validate that you have looked at the page source : 452464bc-6ed4-41dd-a48c-67af0ff70196 -->
 <?php include '_includes/footer.php';?>
-<script src="assets/js/code-console.js"></script>
+<script src="assets/js/new-asset.js"></script>
 

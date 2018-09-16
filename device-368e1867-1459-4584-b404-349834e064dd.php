@@ -1,5 +1,9 @@
 <?php include '_includes/header.php';?>
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+        <h1 class="h2">Challenge Two</h1>        
+      </div>
+      
       <h1 class="h2">Device (Ctrl + Shift + M)</h1>        
       <p>The device tab gives you the ability to look at a webpage on different size devices.</p>
       <o>How does this page look on a simulated device?</p>

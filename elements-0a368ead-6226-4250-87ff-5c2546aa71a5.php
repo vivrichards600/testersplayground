@@ -20,7 +20,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
 <?php include '_includes/header.php';?>
     <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
-      <h1 class="h2">Elements</h1>        
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+        <h1 class="h2">Challenge Three</h1>        
+      </div>
+      
+      
+      <h1 class="h2">Elements (Ctrl + Shift + C)</h1>        
       <p>The 'Elements' tab give users the ability to look at the html/css for the rendered page.</p>
       <p>As you hover over the page source you can see the element(s) being selected.</p>
 
