@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
       <h2>Input the code from within a newly added asset!</h2>
       <div class="table-responsive">
-        <p>The field below requires a string which is returned within newly added asset in order to move on to the next challenge. Can you find it within the assets?</p>        
+        <p>The field below requires a string which is returned from a function in order to move on to the next challenge. Can you find it within the assets?</p>        
         <form action="sources-1c7dc822-c3ba-4a32-814a-75c46f593540.php" method="post">
         Enter the secret code *: <input type="text" size="40" class="inputbox" name="valuesadded">
         <input type="submit">
