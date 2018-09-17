@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
 	<h2>Input the hidden code!</h2>
 	<div class="table-responsive">
-		<p>The field below requires a hidden code in order to move on to the next challenge. Can you find the secret code?</p>
+		<p>The field below requires a hidden code in order to move on to the next challenge. Can you find the hidden code?</p>
 
 		<form action="application-cf590198-e290-4896-a60f-24def18bc101.php" method="post">
 			<div class="form-group col-md-4">
