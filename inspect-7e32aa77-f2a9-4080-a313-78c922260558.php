@@ -5,8 +5,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
     $valuesadded = $_POST['valuesadded'];
 
-    if($valuesadded == '452464bc-6ed4-41dd-a48c-67af0ff70196') {
-      $_SESSION['ChallengeLink'] = 'inspect-7e32aa77-f2a9-4080-a313-78c922260558.php';
+    if($valuesadded == '113b840a-2a65-45c5-913e-d21dee774b79') {
+      $_SESSION['ChallengeLink'] = 'device-368e1867-1459-4584-b404-349834e064dd.php';
       header("Location: ChallengeComplete.php");
     }
   }
@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 <?php include '_includes/header.php';?>
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
 	<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-		<h1 class="h2">Inspector gadget</h1>
+		<h1 class="h2">Style is everything</h1>
 	</div>
 
 	<h1 class="h2">Inspect
@@ -25,11 +25,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		tab as you hover.</p>
 
 
+
+
 	<h2>Input the hidden code!</h2>
 	<div class="table-responsive">
-		<p>The field below requires a hidden code in order to move on to the next challenge. Can you find the secret code?</p>
+		<p>The field below requires a hidden code in order to move on to the next challenge. Can you find the secret code by altering the css?</p>
 
-		<form action="inspect-c6912ea9-3522-4d90-96c1-5c0b34698614.php" method="post">
+		<div style="font-size:1px;">
+			<p>Hidden code: 113b840a-2a65-45c5-913e-d21dee774b79</p>
+		</div>
+
+		<form action="inspect-7e32aa77-f2a9-4080-a313-78c922260558.php" method="post">
 			<div class="form-group col-md-4">
 				<label for="inputSecretCode">Enter the hidden code</label>
 				<input type="text" size="40" class="form-control" name="valuesadded" id="inputSecretCode">
@@ -40,5 +46,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 </main>
 </div>
 </div>
-<!--add this value in the secret code field to validate that you have looked at the page source : 452464bc-6ed4-41dd-a48c-67af0ff70196 -->
+
 <?php include '_includes/footer.php';
+
