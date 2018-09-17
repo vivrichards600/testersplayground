@@ -8,7 +8,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
     if($valuesadded == '452464bc-6ed4-41dd-a48c-67af0ff70196') {
       // job done!
-      $usermessage = "<p><br><a href='device-368e1867-1459-4584-b404-349834e064dd.php' class='btn btn-success'>Next Challenge</a></p>";
+      $dialogue = "<div class='alert alert-success' role='alert'>
+  <h4 class='alert-heading'>Challenge Complete!</h4>
+  <p>You've successfully completed this challenge. Click the button below to move on to the new one.</p>
+</div>";
+      
+      $usermessage = $dialogue . "<p><br><a href='device-368e1867-1459-4584-b404-349834e064dd.php' class='btn btn-success'>Next Challenge</a></p>";
     }
   }
 ;?>
