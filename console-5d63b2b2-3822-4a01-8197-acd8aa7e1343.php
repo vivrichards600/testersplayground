@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
         <h1 class="h2">Challenge Four</h1>        
       </div>
-       <h1 class="h2">Console (Ctrl + Shift + J)</h1>    
+       <h1 class="h2">Console  <span class="shortcuts">(Windows/Linux Ctrl+Shift+J)(Mac Command+Option+J)</span></h1>    
         <p>The 'Console' tab enables you to stack redundant messages or display them on their own lines, clear or persist output or save it to a file, filter output, and access additional Console settings.</p>
 
       <h2>Input the missing asset name!</h2>
