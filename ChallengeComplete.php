@@ -15,7 +15,7 @@ if ( isset( $_SESSION['ChallengeLink'] ) ) {
 		<p>Good job, you successfully completed the challenge.</p>
 		<img src="assets/img/trophy.png" height="160px"/>
 		<hr>
-		<a href='<?php echo $challengeUrl;?>' class='btn btn-success'>Next Challenge</a>
+		<a href='<?php echo $challengeUrl;?>' class='btn btn-success'>Next Challenge 🡪</a>
 	</div>
 
 </main>
