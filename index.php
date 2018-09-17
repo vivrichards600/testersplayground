@@ -21,7 +21,7 @@
         </p>
         <p>Once the developer tools window has opened you can then choose to dock the window within the browser sidebar, bottom or undocked</p>
         <p>Click the button below to start.</p>
-        <p><a href="inspect-c6912ea9-3522-4d90-96c1-5c0b34698614.php" class="btn btn-primary">Let's go  🡪</a></p>
+        <p><a href="inspect-c6912ea9-3522-4d90-96c1-5c0b34698614.php" class="btn btn-primary">Let's go</a></p>
       </div>
     </main>
   </div>
