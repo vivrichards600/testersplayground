@@ -4,7 +4,7 @@
         <h1 class="h2">Challenge Two</h1>        
       </div>
       
-      <h1 class="h2">Device (Ctrl + Shift + M)</h1>        
+      <h1 class="h2">Device <span class="shortcuts">(Windows Ctrl+Shift+M)(Mac Command+Shift+M)</span></h1>        
       <p>The device tab gives you the ability to look at a webpage on different size devices.</p>
       <o>How does this page look on a simulated device?</p>
 
