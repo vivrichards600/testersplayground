@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
   <p>You've successfully completed this challenge. Click the button below to move on to the new one.</p>
 </div>";
       
-      $usermessage = $dialogue . "<p><br><a href='device-368e1867-1459-4584-b404-349834e064dd.php' class='btn btn-success'>Next Challenge</a></p>";
+      $usermessage = "<p><br><a href='device-368e1867-1459-4584-b404-349834e064dd.php' class='btn btn-success'>Next Challenge</a></p>";
     }
   }
 ;?>
