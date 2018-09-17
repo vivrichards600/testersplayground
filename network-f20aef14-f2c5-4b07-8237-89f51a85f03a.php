@@ -1,14 +1,12 @@
-<?php 
-$usermessage = "";
+<?php session_start();
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
   if (isset($_POST['valuesadded'])){
 
     $valuesadded = $_POST['valuesadded'];
-    $usermessage = "";
-
     if($valuesadded == 'ba09c56d-bca3-4637-b502-c633432f8b3f') {
-      // job done!
-      $usermessage = "<p><br><a href='application-cf590198-e290-4896-a60f-24def18bc101.php' class='btn btn-success'>Next Challenge</a></p>";
+      $_SESSION['ChallengeLink'] = 'application-cf590198-e290-4896-a60f-24def18bc101.php';
+      header("Location: ChallengeComplete.php");
     }
   }
 ;?>
@@ -54,7 +52,6 @@ $(document).ready(function(){
         Enter the secret code *: <input type="text" size="40" class="inputbox" name="valuesadded">
         <input type="submit">
         </form>
-        <label><?php echo $usermessage; ?></label>
 
       </div>
      
@@ -62,4 +59,4 @@ $(document).ready(function(){
   </div>
 </div>
 
-<?php include '_includes/footer.php';?>
+<?php include '_includes/footer.php';

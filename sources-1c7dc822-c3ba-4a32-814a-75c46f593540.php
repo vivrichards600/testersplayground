@@ -1,14 +1,12 @@
-<?php 
-$usermessage = "";
+<?php session_start();
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
   if (isset($_POST['valuesadded'])){
 
     $valuesadded = $_POST['valuesadded'];
-    $usermessage = "";
-
+  
     if($valuesadded == 'c0dfa570-bce6-4642-8dee-7daef956efd8') {
-      // job done!
-      $usermessage = "<p><br><a href='network-f20aef14-f2c5-4b07-8237-89f51a85f03a.php' class='btn btn-success'>Next Challenge</a></p>";
+      $_SESSION['ChallengeLink'] = 'network-f20aef14-f2c5-4b07-8237-89f51a85f03a.php';
+      header("Location: ChallengeComplete.php");
     }
   }
 ;?>
@@ -29,8 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
         Enter the secret code *: <input type="text" size="40" class="inputbox" name="valuesadded">
         <input type="submit">
         </form>
-        <label><?php echo $usermessage; ?></label>
-
+        
       </div>
     </main>
   </div>
