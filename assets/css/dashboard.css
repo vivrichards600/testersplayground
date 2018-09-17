@@ -120,3 +120,8 @@ body {
         display: inline;
     }
 }
+
+/* Theme colours */
+nav.navbar.navbar-dark.sticky-top.bg-dark.flex-md-nowrap.p-0 {
+    background-color: #E91E63 !important;
+}
