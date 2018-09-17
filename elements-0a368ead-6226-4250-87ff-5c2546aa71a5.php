@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
       </div>
       
       
-      <h1 class="h2">Elements (Ctrl + Shift + C)</h1>        
+      <h1 class="h2">Elements  <span class="shortcuts">(Windows/Linux Ctrl+Shift+C)(Mac Command+Shift+C)</span></h1>        
       <p>The 'Elements' tab give users the ability to look at the html/css for the rendered page.</p>
       <p>As you hover over the page source you can see the element(s) being selected.</p>
 
