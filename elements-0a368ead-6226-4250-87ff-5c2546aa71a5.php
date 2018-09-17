@@ -18,15 +18,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 <?php include '_includes/header.php';?>
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
 	<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-		<h1 class="h2">Validator</h1>
+		<h1 class="h2">Validator <span tooltip="(Windows/Linux Ctrl+Shift+C)(Mac Command+Shift+C). The 'Elements' tab give users the ability to look at the html/css for the rendered page. As you hover over the page source you can see the element(s) being selected." tooltip-position="right"><img src="assets/img/info.png" height="28px"/></span></h1>
 	</div>
-
-
-	<h1 class="h2">Elements
-		<span class="shortcuts">(Windows/Linux Ctrl+Shift+C)(Mac Command+Shift+C)</span>
-	</h1>
-	<p>The 'Elements' tab give users the ability to look at the html/css for the rendered page.</p>
-	<p>As you hover over the page source you can see the element(s) being selected.</p>
 
 	<h2>Bypass html 5 validations</h2>
 	<div class="table-responsive">

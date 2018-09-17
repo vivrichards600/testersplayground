@@ -32,12 +32,9 @@ $(document).ready(function(){
 
     <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-        <h1 class="h2">Hidden within</h1>        
+        <h1 class="h2">Hidden within <span tooltip="The 'Network' tab records information about each network operation on a page, including detailed timing data, HTTP request and response headers, cookies, and more." tooltip-position="right"><img src="assets/img/info.png" height="28px"/></span></h1>      
       </div>
-      <h1 class="h2">Network</h1>    
-        <p>The 'Network' tab records information about each network operation on a page, including detailed timing data, HTTP request and response headers, cookies, and more.</p>
-        
-
+    
       <h2>Input the hidden code!</h2>
       <div class="table-responsive">
         <p>The field below requires a hidden code in order to move on to the next challenge. Can you find the secret code?</p>

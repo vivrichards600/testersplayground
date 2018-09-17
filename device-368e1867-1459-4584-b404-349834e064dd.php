@@ -1,18 +1,12 @@
 <?php include '_includes/header.php';?>
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
 	<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-		<h1 class="h2">Be mobile</h1>
+		<h1 class="h2">Be mobile <span tooltip="(Windows/Linux Ctrl+Shift+M)(Mac Command+Shift+M). The device tab gives you the ability to look at a webpage on different size devices." tooltip-position="right"><img src="assets/img/info.png" height="28px"/></span></h1>
 	</div>
 
-	<h1 class="h2">Device
-		<span class="shortcuts">(Windows/Linux Ctrl+Shift+M)(Mac Command+Shift+M)</span>
-	</h1>
-	<p>The device tab gives you the ability to look at a webpage on different size devices.</p>
 	<o>How does this page look on a simulated device?</p>
 
-		<style type="text/css">
-		</style>
-
+	
 
 		<div class="table-responsive mobileShow">
 

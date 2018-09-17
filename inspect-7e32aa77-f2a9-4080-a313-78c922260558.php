@@ -15,16 +15,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 <?php include '_includes/header.php';?>
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
 	<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-		<h1 class="h2">Style is everything</h1>
+		<h1 class="h2">Style is everything <span tooltip="(Windows/Linux Ctrl+Shift+C)(Mac Command+Option+C). The 'Inspect' tab enables you to select an element within the browser and have it's html markup selected in the Elements
+		tab as you hover." tooltip-position="right"><img src="assets/img/info.png" height="28px"/></span></h1>
 	</div>
-
-	<h1 class="h2">Inspect
-		<span class="shortcuts">(Windows/Linux Ctrl+Shift+C)(Mac Command+Option+C)</span>
-	</h1>
-	<p>The 'Inspect' tab enables you to select an element within the browser and have it's html markup selected in the Elements
-		tab as you hover.</p>
-
-
 
 
 	<h2>Input the hidden code!</h2>
