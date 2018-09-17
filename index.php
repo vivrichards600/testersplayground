@@ -19,8 +19,8 @@ session_start();
           <ul>
             <li>Click the web browser Menu, Select 'More Tools' and then Click on ' Developer tools'</li>
             <li>Right click an area of the web page and then click on 'Inspect'</li>
-            <li>Press 'ctrl' + 'shift' + 'I'</li>
-            <li>Press 'F12'</li>
+            <li>Windows/Linux Press Ctrl+Shift+I or F12</li>
+            <li>Mac Press Command+Option+I</li>
           </ul>
         </p>
         <p>Once the developer tools window has opened you can then choose to dock the window within the browser sidebar, bottom or undocked</p>
