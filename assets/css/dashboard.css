@@ -120,3 +120,9 @@ body {
         display: inline;
     }
 }
+
+
+*/ Custom colours for theme */
+.bg-dark {
+    background-color: #E91E63!important;
+}
