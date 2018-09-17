@@ -38,9 +38,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
 
 		<form action="elements-0a368ead-6226-4250-87ff-5c2546aa71a5.php" method="post">
-			Enter a number value *:
-			<input type="number" size="15" class="inputbox" name="valuesadded">
-			<input type="submit">
+			<div class="form-group col-md-4">
+				<label for="inputSecretCode">Enter a number value</label>
+				<input type="number" size="15" class="form-control" name="valuesadded" id="inputSecretCode">
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
 		</form>
 
 	</div>

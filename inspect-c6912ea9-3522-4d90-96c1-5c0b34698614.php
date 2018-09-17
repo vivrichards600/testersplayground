@@ -30,9 +30,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		<p>The field below requires a hidden code in order to move on to the next challenge. Can you find the secret code?</p>
 
 		<form action="inspect-c6912ea9-3522-4d90-96c1-5c0b34698614.php" method="post">
-			Enter the secret code *:
-			<input type="text" size="40" class="inputbox" name="valuesadded">
-			<input type="submit">
+			<div class="form-group col-md-4">
+				<label for="inputSecretCode">Enter the secret code</label>
+				<input type="text" size="40" class="form-control" name="valuesadded" id="inputSecretCode">
+			</div>
+			<button type="submit" class="btn btn-primary">Submit</button>
 		</form>
 	</div>
 </main>
