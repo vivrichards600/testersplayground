@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 <?php include '_includes/header.php';?>
     <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
 
