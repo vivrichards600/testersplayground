@@ -24,15 +24,15 @@
 
             <ul class="list-group">
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <a href="devtools.php"><img src="assets/img/chrome.png"/> Chrome DevTools <span class="badge badge-primary">New</span></a>
+                <a href="devtools.php"><img src="assets/img/chrome.png" alt="chrome"/> Chrome DevTools <span class="badge badge-primary">New</span></a>
                 <span class="badge badge-primary badge-pill">9 Challenges</span>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <a href="#" class="disabled"><img src="assets/img/owasp.png"/> OWASP <span class="badge badge-secondary">Coming Soon</span></a>
+                <a href="#" class="disabled"><img src="assets/img/owasp.png" alt="security"/> OWASP <span class="badge badge-secondary">Coming Soon</span></a>
                 <span class="badge badge-primary badge-pill">0 Challenges</span>
               </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <a href="#" class="disabled"><img src="assets/img/accessibility.png"/> Accessibility <span class="badge badge-secondary">Coming Soon</span></a>
+                  <a href="#" class="disabled"><img src="assets/img/accessibility.png" alt="accessibility"/> Accessibility <span class="badge badge-secondary">Coming Soon</span></a>
                 <span class="badge badge-primary badge-pill">0 Challenges</span>
               </li>
             </ul>
