@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
     <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-        <h1 class="h2">Hidden within <span tooltip="The 'Network' tab records information about each network operation on a page, including detailed timing data, HTTP request and response headers, cookies, and more." tooltip-position="right"><img src="assets/img/info.png" height="28px"/></span></h1>      
+        <h1 class="h2">Hidden within <span tooltip="The 'Network' tab records information about each network operation on a page, including detailed timing data, HTTP request and response headers, cookies, and more." tooltip-position="right"><img src="assets/img/info.png" alt="info" height="28px"/></span></h1>      
         <span tooltip="Within the Network tab, is there a file which is being called quite often?" tooltip-position="left"><span class="badge badge-warning badge-large">Hint</span></span>
       </div>
     

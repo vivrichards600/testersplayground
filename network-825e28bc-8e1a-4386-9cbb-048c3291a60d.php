@@ -18,7 +18,7 @@
 		<h1 class="h2">Slow down
 			<span tooltip="The 'Network' tab records information about each network operation on a page, including detailed timing data, HTTP request and response headers, cookies, and more."
 			 tooltip-position="right">
-				<img src="assets/img/info.png" height="28px" />
+				<img src="assets/img/info.png" alt="info" height="28px" />
 			</span>
 		</h1>
 		<span tooltip="Network Conditioning is turned on through the Network tab. Select a connection from the dropdown to apply network throttling and latency manipulation." tooltip-position="left"><span class="badge badge-warning badge-large">Hint</span></span>

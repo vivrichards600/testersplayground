@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		<h1 class="h2">I'm hungry!
 			<span tooltip="The 'Application' tab allows you to see all resources that are loaded, including IndexedDB or Web SQL databases, local and
 		session storage, cookies, Application Cache, images, fonts, and stylesheets." tooltip-position="right">
-				<img src="assets/img/info.png" height="28px" />
+				<img src="assets/img/info.png" alt="info" height="28px" />
 			</span>
 		</h1>
 		<span tooltip="The application tab contains some tasty cookies!" tooltip-position="left"><span class="badge badge-warning badge-large">Hint</span></span>

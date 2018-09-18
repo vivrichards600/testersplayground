@@ -4,7 +4,7 @@
 		<h1 class="h2">Be mobile
 			<span tooltip="(Windows/Linux Ctrl+Shift+M)(Mac Command+Shift+M). The device tab gives you the ability to look at a webpage on different size devices."
 			 tooltip-position="right">
-				<img src="assets/img/info.png" height="28px" />
+				<img src="assets/img/info.png" alt="info" height="28px" />
 			</span>
 		</h1>
 		<span tooltip="Chrome DevTools can simulate mobile device rendering - have you googled to see how?" tooltip-position="left"><span class="badge badge-warning badge-large">Hint</span></span>
