@@ -20,9 +20,9 @@ a.disabled {
       <h2>Challenges</h2>
         <p>
           <ul>
-            <li><a href="devtools.php">Chrome DevTools</a></li>
-            <li><a href="#" class="disabled">OWASP (Coming soon)</a></li>
-            <li><a href="#" class="disabled">Accessibility (Coming soon)</a></li>
+            <li><a href="devtools.php">Chrome DevTools <span class="badge badge-primary">New</span></a></li>
+            <li><a href="#" class="disabled">OWASP <span class="badge badge-secondary">Coming Soon</span></a></li>
+            <li><a href="#" class="disabled">Accessibility <span class="badge badge-secondary">Coming Soon</span></a></li>
           </ul>
         </p>
         <p>Have ideas for new types of challenges or want to give some feedback? I'd love to hear from you <a href="mailto:hello@vivrichards.co.uk">hello@vivrichards.co.uk</a></p>
