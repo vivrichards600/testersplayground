@@ -25,6 +25,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 			being on a slow 3g network in order to find the secret code?</p>
 
 		<div id="network3g">
+			<div class="alert alert-warning" role="alert">
+					<h4 class="alert-heading">Reminder!</h4>
+					<p>Remember to un-throttle your browser network within the 'Network' tab before moving on to the next challenge.</p>
+				</div>
 			<p>Hidden code: bebc0dfa-b67a-429e-a98b-233e26bfd68f</p>
 		</div>
 
