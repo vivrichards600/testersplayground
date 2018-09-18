@@ -1,36 +1,36 @@
-<?php include '_includes/header.php';?>
-<style>
-  
-a.disabled {
-    /* Make the disabled links grayish*/
-    color: gray !important;
-    /* And disable the pointer events */
-    pointer-events: none;
-}
-</style>
-    <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
+  <?php include '_includes/header.php';?>
+  <style>
+    
+  a.disabled {
+      /* Make the disabled links grayish*/
+      color: gray !important;
+      /* And disable the pointer events */
+      pointer-events: none;
+  }
+  </style>
+      <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
 
-    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-        <h1 class="h2">Testers Playground</h1>        
-      </div>
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+          <h1 class="h2">Welcome!</h1>        
+        </div>
+        
+        <p>This web site contains various challenges designed to help testers learn as well as challenge their current knowledge and skills.</p>
       
-      <p>This web site contains various challenges designed to help testers learn as well as challenge their current knowledge and skills.</p>
-     
-      <div class="table-responsive">
-      <h2>Challenges</h2>
-        <p>
-          <ul>
-            <li><a href="devtools.php">Chrome DevTools <span class="badge badge-primary">New</span></a></li>
-            <li><a href="#" class="disabled">OWASP <span class="badge badge-secondary">Coming Soon</span></a></li>
-            <li><a href="#" class="disabled">Accessibility <span class="badge badge-secondary">Coming Soon</span></a></li>
-          </ul>
-        </p>
-        <p>Have ideas for new types of challenges or want to give some feedback? I'd love to hear from you <a href="mailto:hello@vivrichards.co.uk">hello@vivrichards.co.uk</a></p>
-      </div>
-    </main>
+        <div class="table-responsive">
+        <h2>Challenges</h2>
+          <p>
+            <ul>
+              <li><a href="devtools.php">Chrome DevTools <span class="badge badge-primary">New</span></a></li>
+              <li><a href="#" class="disabled">OWASP <span class="badge badge-secondary">Coming Soon</span></a></li>
+              <li><a href="#" class="disabled">Accessibility <span class="badge badge-secondary">Coming Soon</span></a></li>
+            </ul>
+          </p>
+          <p>Have ideas for new types of challenges or want to give some feedback? I'd love to hear from you <a href="mailto:hello@vivrichards.co.uk">hello@vivrichards.co.uk</a></p>
+        </div>
+      </main>
+    </div>
   </div>
-</div>
-<?php 
+  <?php 
 
-?>
-<?php include '_includes/footer.php';?>
+  ?>
+  <?php include '_includes/footer.php';?>
