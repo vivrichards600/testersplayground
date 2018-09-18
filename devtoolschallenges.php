@@ -5,8 +5,7 @@
         <h1 class="h2">Chrome DevTools</h1>        
       </div>
       
-      <p>These challenges were designed to help testers become more familiar with Chrome DevTools and it's ever growing list of fantastic features.</p>
-      <p>You will need to get to know many of the features and their uses in order to progress through each challenge.<p>
+     <p>Below you can find a link which will take you directly to the chosen DevTools challenge.
      
       <h2>Challenges</h2>
       <div class="table-responsive">
