@@ -19,6 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
 		<h1 class="h2">Inspector gadget <span tooltip="(Windows/Linux Ctrl+Shift+C)(Mac Command+Option+C). The 'Inspect' tab enables you to select an element within the browser and have it's html markup selected in the Elements
 		tab as you hover." tooltip-position="right"><img src="assets/img/info.png" height="28px"/></span></h1>
+		<span tooltip="Look for a hidden field!" tooltip-position="left"><span class="badge badge-warning badge-large">Hint</span></span>
 	</div>
 
 	<h2>Input the hidden code!</h2>

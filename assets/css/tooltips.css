@@ -70,6 +70,7 @@ button:hover {
     top: 50%;
     margin-left: -8px;
     transform: translateX(-100%) translateY(-50%);
+    min-width: 300px;
 }
 
 [tooltip-position='top']::after {
@@ -98,4 +99,9 @@ button:hover {
 
 .input {
     margin-left: 135px
+}
+
+.badge-large {
+    font-size: 17px;
+    padding: .40em .7em;
 }
