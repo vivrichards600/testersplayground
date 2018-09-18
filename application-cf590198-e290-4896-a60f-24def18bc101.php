@@ -21,7 +21,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 				<img src="assets/img/info.png" height="28px" />
 			</span>
 		</h1>
+		<span tooltip="The application tab contains some tasty cookies!" tooltip-position="left"><span class="badge badge-warning badge-large">Hint</span></span>
 	</div>
+
 
 
 
