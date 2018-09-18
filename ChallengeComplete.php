@@ -21,4 +21,12 @@ if ( isset( $_SESSION['ChallengeLink'] ) ) {
 </main>
 </div>
 </div>
+
+<?php 
+$cookie_name = 'HiddenCode';
+unset($_COOKIE[$cookie_name]);
+// empty value and expiration one hour before
+$res = setcookie($cookie_name, '', time() - 3600);
+?>
+
 <?php include '_includes/footer.php';
