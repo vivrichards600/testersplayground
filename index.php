@@ -19,10 +19,16 @@
         <div class="table-responsive">
         <h2>Challenges</h2>
           <p>
-            <ul>
-              <li><a href="devtools.php">Chrome DevTools <span class="badge badge-primary">New</span></a></li>
-              <li><a href="#" class="disabled">OWASP <span class="badge badge-secondary">Coming Soon</span></a></li>
-              <li><a href="#" class="disabled">Accessibility <span class="badge badge-secondary">Coming Soon</span></a></li>
+
+          <ul class="list-group">
+
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <a href="devtools.php"><img src="assets/img/chrome.PNG"/> Chrome DevTools <span class="badge badge-primary">New</span></a>
+                <span class="badge badge-primary badge-pill">9</span>
+              </li>
+              <li class="list-group-item"><a href="#" class="disabled">OWASP <span class="badge badge-secondary">Coming Soon</span></a></li>
+              <li class="list-group-item"><a href="#" class="disabled">Accessibility <span class="badge badge-secondary">Coming Soon</span></a></li>
             </ul>
           </p>
           <p>Have ideas for new types of challenges or want to give some feedback? I'd love to hear from you <a href="mailto:hello@vivrichards.co.uk">hello@vivrichards.co.uk</a></p>
