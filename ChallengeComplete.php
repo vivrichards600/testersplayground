@@ -4,7 +4,8 @@ if ( isset( $_SESSION['ChallengeLink'] ) ) {
     $challengeUrl = $_SESSION['ChallengeLink']; 
 } else {
     // error, no challenge url received
-    //return user back to where they came from!
+    //return user back to start page!
+	header('Location: index.php');
 }
 ?>
 
