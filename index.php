@@ -25,15 +25,15 @@
             <ul class="list-group">
               <li class="list-group-item d-flex justify-content-between align-items-center">
                 <a href="devtools.php"><img src="assets/img/chrome.png"/> Chrome DevTools <span class="badge badge-primary">New</span></a>
-                <span class="badge badge-primary badge-pill">9</span>
+                <span class="badge badge-primary badge-pill">9 Challenges</span>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <a href="#" class="disabled">OWASP <span class="badge badge-secondary">Coming Soon</span></a>
-                <span class="badge badge-primary badge-pill">0</span>
+                <a href="#" class="disabled"><img src="assets/img/owasp.png"/> OWASP <span class="badge badge-secondary">Coming Soon</span></a>
+                <span class="badge badge-primary badge-pill">0 Challenges</span>
               </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <a href="#" class="disabled">Accessibility <span class="badge badge-secondary">Coming Soon</span></a>
-                <span class="badge badge-primary badge-pill">0</span>
+                  <a href="#" class="disabled"><img src="assets/img/accessibility.png"/> Accessibility <span class="badge badge-secondary">Coming Soon</span></a>
+                <span class="badge badge-primary badge-pill">0 Challenges</span>
               </li>
             </ul>
           </p>
