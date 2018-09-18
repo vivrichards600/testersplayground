@@ -17,9 +17,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 	<!-- tool tips css -->
-
-	<!-- Custom styles for this template -->
 	<link href="assets/css/tooltips.css" rel="stylesheet">
+
+	<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
 </head>
 
