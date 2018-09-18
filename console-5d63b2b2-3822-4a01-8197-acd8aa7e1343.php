@@ -18,9 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		<h1 class="h2">404 (Not Found)<span tooltip="(Windows/Linux Ctrl+Shift+J)(Mac Command+Option+J). The 'Console' tab enables you to stack redundant messages or display them on their own lines, clear or persist output or
 		save it to a file, filter output, and access additional Console settings.." tooltip-position="right"><img src="assets/img/info.png" height="28px"/></span></h1>
 		<span tooltip="Is the console reporting any errors? Look for a file which is 404 (Not Found)." tooltip-position="left"><span class="badge badge-warning badge-large">Hint</span></span>
-
 	</div>
-
 
 	<h2>Input the missing asset name!</h2>
 	<div class="table-responsive">
