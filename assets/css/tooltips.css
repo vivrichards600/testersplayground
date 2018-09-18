@@ -7,6 +7,7 @@ button:hover {
 [tooltip] {
     position: relative;
     display: inline-block;
+    cursor: help;
 }
 
 [tooltip]::before {
@@ -104,4 +105,5 @@ button:hover {
 .badge-large {
     font-size: 17px;
     padding: .40em .7em;
+    cursor: help;
 }
