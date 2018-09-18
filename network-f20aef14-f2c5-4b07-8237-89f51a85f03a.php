@@ -15,20 +15,27 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 <?php include '_includes/header.php';?>
 
 <script>
-$(document).ready(function(){
+$runCount = 0;
+$num = "";
+ $(document).ready(function(){
   sendRequest();
   function sendRequest(){
       $.ajax({
         url: "network-code.php",
         success: 
-          function(data){   
+          function(data){      
+            if($runCount < 5) {
+              $runCount += 1; 
+            }    
         },
         complete: function() {
+       setInterval(sendRequest, 10000); // The interval set to 20 seconds
      }
     });
   };
 });
 </script>
+
 
     <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
