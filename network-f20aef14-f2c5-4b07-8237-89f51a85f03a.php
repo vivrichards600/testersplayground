@@ -45,7 +45,7 @@ $num = "";
   sendRequest();
   function sendRequest(){
       $.ajax({
-        url: "network-code.php",
+        url: "hidden-code.php",
         success: 
           function(data){      
             if($runCount < 10) {
