@@ -2,7 +2,7 @@
     <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
 
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-        <h1 class="h2">Chrome DevTools</h1>        
+        <h1 class="h2"><img src="assets/img/chrome.png" alt="chrome"/> Chrome DevTools</h1>        
       </div>
       
       <p>These challenges were designed to help testers become more familiar with Chrome DevTools and it's ever growing list of fantastic features.</p>
