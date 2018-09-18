@@ -29,6 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 			<div class="form-group col-md-4">
 				<label for="inputSecretCode">Enter the hidden code</label>
 				<input type="text" size="40" class="form-control" name="valuesadded" id="inputSecretCode">
+				<input type="hidden" name="hiddencode" value="452464bc-6ed4-41dd-a48c-67af0ff70196">
 			</div>
 			<button type="submit" class="btn btn-primary">Submit</button>
 		</form>
@@ -36,5 +37,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 </main>
 </div>
 </div>
-<!--add this value in the secret code field to validate that you have looked at the page source : 452464bc-6ed4-41dd-a48c-67af0ff70196 -->
+
 <?php include '_includes/footer.php';
