@@ -11,12 +11,19 @@
 		<div class="table-responsive mobileShow">
 
 			<form action="device-368e1867-1459-4584-b404-349834e064dd.php" method="post">
+				<div class="alert alert-warning" role="alert">
+					<h4 class="alert-heading">Reminder!</h4>
+					<p>Remember to exit device mode before moving on to the next challenge.</p>
+				</div>
+				
 				<div class="alert alert-success" role="alert">
 					<h4 class="alert-heading">Challenge Complete!</h4>
 					<p>Good job, you successfully completed the challenge.</p>
 					<hr>
-          <a href="elements-0a368ead-6226-4250-87ff-5c2546aa71a5.php" class="btn btn-success">Next Challenge</a>
+          				<a href="elements-0a368ead-6226-4250-87ff-5c2546aa71a5.php" class="btn btn-success">Next Challenge</a>
 				</div>
+				
+				
 			
 			</form>
 
