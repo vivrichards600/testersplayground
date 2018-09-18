@@ -24,7 +24,7 @@
 
             <ul class="list-group">
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <a href="devtools.php"><img src="assets/img/chrome.PNG"/> Chrome DevTools <span class="badge badge-primary">New</span></a>
+                <a href="devtools.php"><img src="assets/img/chrome.png"/> Chrome DevTools <span class="badge badge-primary">New</span></a>
                 <span class="badge badge-primary badge-pill">9</span>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
