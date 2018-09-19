@@ -29,7 +29,7 @@
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
                 <a href="owasp.php"><img src="assets/img/owasp.png" alt="security"/> OWASP <span class="badge badge-primary">New</span></a>
-                <span class="badge badge-primary badge-pill">1 Challenge</span>
+                <span class="badge badge-primary badge-pill">2 Challenges</span>
               </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
                   <a href="#" class="disabled"><img src="assets/img/accessibility.png" alt="accessibility"/> Accessibility <span class="badge badge-secondary">Coming Soon</span></a>

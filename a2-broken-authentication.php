@@ -6,7 +6,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
    		$valuesadded = $_POST['userInput'];
 
 			if (strpos($valuesadded, ';') !== false || strpos($valuesadded, "'") !== false)  {
-				$_SESSION['ChallengeLink'] = 'a2-broken-authentication.php'; // reveal next challenge
+				$_SESSION['ChallengeLink'] = 'a2-broken-authentication.php'; 
 				header("Location: ChallengeComplete.php");
 		}
   }

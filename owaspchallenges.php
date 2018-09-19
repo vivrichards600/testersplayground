@@ -14,6 +14,9 @@
 					<li class="list-group-item d-flex justify-content-between align-items-center">
 						<a href="a1-sql-injection.php">A1 - SQL Injection <span class="badge badge-primary">New</span></a>
 					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<a href="a7-xss.php">A7 - Cross-Site Scripting <span class="badge badge-primary">New</span></a>
+					</li>
 				</ul>
 			</p>
 
