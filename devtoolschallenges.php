@@ -27,7 +27,7 @@
 						<a href="console-5d63b2b2-3822-4a01-8197-acd8aa7e1343.php">404 (Not Found)</a>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
-						<a href="sources-1c7dc822-c3ba-4a32-814a-75c46f593540.php">Saucey</a>
+						<a href="sources-1c7dc822-c3ba-4a32-814a-75c46f593540.php">Sourcerer</a>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
 						<a href="network-f20aef14-f2c5-4b07-8237-89f51a85f03a.php">Hidden within</a>
@@ -37,6 +37,9 @@
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
 						<a href="application-cf590198-e290-4896-a60f-24def18bc101.php">I'm hungry!</a>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<a href="application-02e05778-28e7-483b-b5c1-9054349b0b8b.php">Storage hunter</a>
 					</li>
 				</ul>
 			</p>

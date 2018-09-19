@@ -25,7 +25,7 @@
             <ul class="list-group">
               <li class="list-group-item d-flex justify-content-between align-items-center">
                 <a href="devtools.php"><img src="assets/img/chrome.png" alt="chrome"/> Chrome DevTools <span class="badge badge-primary">New</span></a>
-                <span class="badge badge-primary badge-pill">9 Challenges</span>
+                <span class="badge badge-primary badge-pill">10 Challenges</span>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
                 <a href="#" class="disabled"><img src="assets/img/owasp.png" alt="security"/> OWASP <span class="badge badge-secondary">Coming Soon</span></a>

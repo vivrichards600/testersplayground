@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 <?php include '_includes/header.php';?>
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
 	<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-		<h1 class="h2">Saucey <span tooltip="The 'Sources' tab enables you to view and edit various assets for the page." tooltip-position="right"><img src="assets/img/info.png" alt="info" height="28px"/></span></h1>
+		<h1 class="h2">Sourcerer <span tooltip="The 'Sources' tab enables you to view and edit various assets for the page." tooltip-position="right"><img src="assets/img/info.png" alt="info" height="28px"/></span></h1>
 		<span tooltip="Look within the DevTools sources tab to find a javascript file hidden within the assets folder." tooltip-position="left"><span class="badge badge-warning badge-large">Hint</span></span>
 	</div>
 
