@@ -12,10 +12,34 @@
 			<p>
 				<ul class="list-group">
 					<li class="list-group-item d-flex justify-content-between align-items-center">
-						<a href="a1-sql-injection.php">A1 - SQL Injection <span class="badge badge-primary">New</span></a>
+						<a href="a1-sql-injection.php">A1:SQL Injection <span class="badge badge-primary">New</span></a>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
-						<a href="a7-xss.php">A7 - Cross-Site Scripting <span class="badge badge-primary">New</span></a>
+						<a href="#" class="disabled">A2:BrokenAuthentication</a>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<a href="#" class="disabled">A3:Sensitive Data Exposure</a>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<a href="#" class="disabled">A4:XML External Entities (XXE)</a>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<a href="#" class="disabled">A5:Broken Access Control</a>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<a href="#" class="disabled">A6:Security Misconfiguration</a>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<a href="a7-xss.php">A7:Cross-Site Scripting (XSS) <span class="badge badge-primary">New</span></a>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<a href="#" class="disabled">A8:Insecure Deserialization</a>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<a href="#" class="disabled">A9:Using Components with Known Vulnerabilities</a>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<a href="#" class="disabled">A10:Insufficient Logging & Monitoring </a>
 					</li>
 				</ul>
 			</p>

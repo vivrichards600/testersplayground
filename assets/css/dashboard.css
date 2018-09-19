@@ -133,3 +133,8 @@ span.shortcuts {
     font-style: italic;
     display: block;
 }
+
+a.disabled {
+    color: gray !important;
+    pointer-events: none;
+}
