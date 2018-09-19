@@ -31,7 +31,7 @@
 		<div id="network3g">
 			<div class="alert alert-warning" role="alert">
 				<h4 class="alert-heading">Reminder!</h4>
-				<p>Remember to un-throttle your browser network within the 'Network' tab before moving on to the next challenge.</p>
+				<p>Remember to un-throttle your browser network within the 'Network' tab after you have moved to the next challenge.</p>
 			</div>
 
 			<div class="alert alert-success" role="alert">
