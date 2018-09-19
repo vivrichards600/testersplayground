@@ -14,16 +14,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 ;?>
 
 <?php include '_includes/header.php';?>
-    <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
-      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-        <h1 class="h2">That's all folks!</h1>        
-      </div>
-      <h2>That's all for now!!</h2>
-      <div class="table-responsive">
-        <p>I'd love your feedback - this is a work in progress...</p><p>hello@vivrichards.co.uk</p>
-      </div>
-    </main>
-  </div>
+<main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
+	
+<div class="alert alert-success" role="alert">
+		<h4 class="alert-heading">That's all folks!</h4>
+		<p>Good job, you successfully completed all the challenges. Please check back soon as I will be adding more!</p>
+		<img src="assets/img/trophy.png" height="160px" alt="trophy" />
+		<hr>
+		<p>I'd love your feedback and/or ideas which you can send to <a href="mailto:hello@vivrichards.co.uk">hello@vivrichards.co.uk</p>
+	</div>
+
+</main>
+</div>
 </div>
 
 <?php include '_includes/footer.php';?>
@@ -32,4 +34,3 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 $cookie_name = "user";
 $cookie_value = "John Doe";
 setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
-?>
