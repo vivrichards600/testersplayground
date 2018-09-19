@@ -14,28 +14,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
 <?php include '_includes/header.php';?>
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
-	<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
-		<h1 class="h2">A2 – Broken Authentication</h1>
-		<span tooltip="Further information on this vulnerability can be viewed by visiting https://www.owasp.org/index.php/Top_10-2017_A2-Broken_Authentication"
-		 tooltip-position="left">
-			<span class="badge badge-warning badge-large">Hint</span>
-		</span>
+<div class="alert alert-success" role="alert">
+		<h4 class="alert-heading">That's all folks!</h4>
+		<p>Good job, you successfully completed all the challenges. Please check back soon as I will be adding more!</p>
+    <p>You can find out more about the OWASP (Open Web Application Security Project) by visiting the official <a target="_blank" href="https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf"> OWASP top 10</a> page.</p>
+		<img src="assets/img/trophy.png" height="160px" alt="trophy" />
+		<hr>
+		<p>I'd love your feedback and/or ideas which you can send to <a href="mailto:hello@vivrichards.co.uk">hello@vivrichards.co.uk</p>
 	</div>
 
-
-	<h2>Broken Authentication</h2>
-	<div class="table-responsive">
-		<p>Coming soon...</p>
-
-
-		<form action="a1-sql-injection.php" method="post">
-			<div class="form-group col-md-4">
-				<!-- <label for="inputSecretCode">Input sql command</label>
-				<input type="text" size="40" class="form-control" name="userInput" id="userInput"> -->
-			</div>
-			<!-- <button type="submit" class="btn btn-primary">Execute</button> -->
-		</form>
-	</div>
 </main>
 </div>
 </div>
