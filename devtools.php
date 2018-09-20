@@ -1,4 +1,8 @@
-<?php include '_includes/header.php';?>
+<?php include '_includes/header.php';  	
+	$_SESSION['ChallengeLink'] = ''; 
+    $_SESSION['ChallengeHeading'] = ''; 
+    $_SESSION['ChallengeFeedback'] = ''; ?>
+
     <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
 
     <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
@@ -10,7 +14,7 @@
      
       <h2>Getting started</h2>
       <div class="table-responsive">
-        <p>To get started please ensure you are visiting this web page using the Google Chrome web browser.</p>
+        <p><strong>To get started please ensure you are visiting this web page using the Google Chrome web browser.</strong></p>
         <p>Next open the developer tools window within Chrome. There are many ways to open developer tools within the browser:
           <ul>
             <li>Click the web browser Menu, Select 'More Tools' and then Click on ' Developer tools'</li>

@@ -6,7 +6,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
    		$valuesadded = $_POST['userInput'];
 
 			if (strpos($valuesadded, '<script>') !== false && strpos($valuesadded, "</script>") !== false)  {
-				$_SESSION['ChallengeLink'] = 'a2-broken-authentication.php'; 
+				$_SESSION['ChallengeLink'] = 'owasp-end.php'; 
+				
 				header("Location: ChallengeComplete.php");
 		}
   }
@@ -16,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
 	<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
 		<h1 class="h2">A7:Cross-Site Scripting (XSS)</h1>
-		<span tooltip="Can you input a basic XSS attack in the below form?" tooltip-position="left">
+		<span tooltip="Have you tried to insert some Javascript in the below form? Be sure to use the correct tags to insert the script!" tooltip-position="left">
 			<span class="badge badge-warning badge-large">Hint</span>
 		</span>
 
@@ -31,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	<div class="table-responsive">
 		<h2>Add a new computer</h2>
 
-		<form action="a1-sql-injection.php" method="post">
+		<form action="a7-xss.php" method="post">
 			<div class="form-group col-md-4">
 				<label for="userInput">Computer name</label>
 				<input type="text" size="40" class="form-control" name="userInput" id="userInput">

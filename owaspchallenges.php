@@ -15,7 +15,7 @@
 						<a href="a1-sql-injection.php">A1:SQL Injection <span class="badge badge-primary">New</span></a>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
-						<a href="#" class="disabled">A2:BrokenAuthentication</a>
+						<a href="a2-broken-authentication.php">A2:BrokenAuthentication <span class="badge badge-primary">New</span></a>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
 						<a href="#" class="disabled">A3:Sensitive Data Exposure</a>

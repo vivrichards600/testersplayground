@@ -5,8 +5,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
    		$valuesadded = $_POST['userInput'];
 
-			if (strpos($valuesadded, ';') !== false || strpos($valuesadded, "'") !== false)  {
-				$_SESSION['ChallengeLink'] = 'a2-broken-authentication.php'; 
+			if ($valuesadded == "test" || $valuesadded == "qwerty" || $valuesadded == "123456" )  {
+				$_SESSION['ChallengeLink'] = 'owasp-end.php'; 
 				header("Location: ChallengeComplete.php");
 		}
   }
@@ -14,18 +14,41 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
 <?php include '_includes/header.php';?>
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
-<div class="alert alert-success" role="alert">
-		<h4 class="alert-heading">That's all folks!</h4>
-		<p>Good job, you successfully completed all the challenges. Please check back soon as I will be adding more!</p>
-    <p>You can find out more about the OWASP (Open Web Application Security Project) by visiting the official <a target="_blank" href="https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf"> OWASP top 10</a> page.</p>
-		<img src="assets/img/trophy.png" height="160px" alt="trophy" />
-		<hr>
-		<p>I'd love your feedback and/or ideas which you can send to <a href="mailto:hello@vivrichards.co.uk">hello@vivrichards.co.uk</p>
+	<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+		<h1 class="h2">A2:Broken Authentication</h1>
+		<span tooltip="An application can become vulnerable if it permits default, weak, or well-known passwords." tooltip-position="left">
+			<span class="badge badge-warning badge-large">Hint</span>
+		</span>
+
 	</div>
+	<p>Application functions related to authentication and session management are often implemented incorrectly, allowing attackers
+		to compromise passwords, keys, or session tokens, or to exploit other implementation flaws to assume other users’ identities
+		temporarily or permanently.
+	</p>
+	<p>Further information on this vulnerability can be viewed by visiting the official
+		<a href="https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf"
+		 target="_blank">OWASP top 10</a>.</p>
+
+	<hr>
+	<div class="table-responsive">
+		<h2>User Login</h2>
+
+		<form action="a2-broken-authentication.php" method="post">
+			<div class="form-group col-md-4">
+				<label for="usernameInput">Username</label>
+				<input type="text" size="40" class="form-control" name="userInput" id="usernameInput">
+			</div>
+			<div class="form-group col-md-4">
+				<label for="userInput">Password</label>
+				<input type="password" size="40" class="form-control" name="userInput" id="userInput">
+			</div>
+			<button type="submit" class="btn btn-primary">Login</button>
+		</form>
+	</div>
+
 
 </main>
 </div>
 </div>
-
 <?php include '_includes/footer.php';
 

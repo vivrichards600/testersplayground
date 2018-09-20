@@ -18,11 +18,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	
 <div class="alert alert-success" role="alert">
 		<h4 class="alert-heading">That's all folks!</h4>
-		<p>Good job, you successfully completed all the challenges. Please check back soon as I will be adding more!</p>
-    <p>You can find out more about Chrome DevTools by visiting the official page. <a href="https://developers.google.com/web/tools/chrome-devtools/">Chrome DevTools Homepage</a>.
-		<img src="assets/img/trophy.png" height="160px" alt="trophy" />
+		<p>Good job, you successfully completed all the challenges.</p>
+    <p>You can find out more about Chrome DevTools by visiting the official <a href="https://developers.google.com/web/tools/chrome-devtools/">Chrome DevTools Homepage</a>.
+		<p><img src="assets/img/trophy.png" height="160px" alt="trophy" /></p>
 		<hr>
-		<p>I'd love your feedback and/or ideas which you can send to <a href="mailto:hello@vivrichards.co.uk">hello@vivrichards.co.uk</p>
+		
+    <p>More challenges will be added soon. <a href="devtoolschallenges.php">Click here to view a full list of the DevTools challenges</a>.</p>
 	</div>
 
 </main>
