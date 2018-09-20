@@ -4,8 +4,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
   if (isset($_POST['userInput'])){
 
    		$valuesadded = $_POST['userInput'];
-
-			if (strpos($valuesadded, ';') !== false || strpos($valuesadded, "'") !== false)  {
+		$str = strtolower($valuesadded);
+			if (strpos($valuesadded, ';') !== false || strpos($valuesadded, "'") !== false  || strpos($valuesadded, "select ") !== false || strpos($valuesadded, "drop ") !== false || strpos($valuesadded, "delete ") !== false || strpos($valuesadded, "truncate") !== false)  {
 				$_SESSION['ChallengeLink'] = 'a7-xss.php'; 
 				header("Location: ChallengeComplete.php");
 		}
