@@ -1,15 +1,5 @@
 <?php session_start();
 
-// if ($_SERVER['REQUEST_METHOD'] == 'POST')
-//   if (isset($_POST['valuesadded'])){
-
-//     $valuesadded = $_POST['valuesadded'];
-
-//     if($valuesadded == 'bebc0dfa-b67a-429e-a98b-233e26bfd68f') {
-// 		$_SESSION['ChallengeLink'] = 'application-cf590198-e290-4896-a60f-24def18bc101.php';
-//       header("Location: ChallengeComplete.php");
-//     }
-//   }
 ;?>
 
 <?php include '_includes/header.php';?>
@@ -39,7 +29,7 @@
 				<p>Good job, you successfully completed the challenge.</p>
 				<img src="assets/img/trophy.png" height="160px" />
 				<hr>
-				<a href="application-cf590198-e290-4896-a60f-24def18bc101.php" class="btn btn-success">Next Challenge</a>
+				<a href="network-546b4156-78c7-4542-b72b-0c79adb0bc01.php" class="btn btn-success">Next Challenge</a>
 			</div>
 		</div>
 

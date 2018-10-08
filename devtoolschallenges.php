@@ -40,10 +40,13 @@
 						<a href="network-825e28bc-8e1a-4386-9cbb-048c3291a60d.php">Slow down</a>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
+						<a href="network-546b4156-78c7-4542-b72b-0c79adb0bc01.php">Image is everything <span class="badge badge-primary">New</span></a>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
 						<a href="application-cf590198-e290-4896-a60f-24def18bc101.php">I'm hungry!</a>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
-						<a href="application-02e05778-28e7-483b-b5c1-9054349b0b8b.php">Storage hunter <span class="badge badge-primary">New</span></a>
+						<a href="application-02e05778-28e7-483b-b5c1-9054349b0b8b.php">Storage hunter</a>
 					</li>
 				</ul>
 			</p>
