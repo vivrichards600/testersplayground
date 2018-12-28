@@ -24,7 +24,7 @@
 
             <ul class="list-group">
               <li class="list-group-item d-flex justify-content-between align-items-center">
-                <a href="devtools.php"><img src="assets/img/chrome.png" alt="chrome"/> Chrome DevTools <span class="badge badge-primary">New</span></a>
+                <a href="devtools.php"><img src="assets/img/chrome.png" alt="chrome"/> Chrome DevTools</a>
                 <span class="badge badge-primary badge-pill">11 Challenges</span>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -32,8 +32,12 @@
                 <span class="badge badge-primary badge-pill">3 Challenges</span>
               </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <a href="accessibility.php"><img src="assets/img/accessibility.png" alt="accessibility"/> Accessibility <span class="badge badge-primary">New</span></a>
+                  <a href="accessibility.php"><img src="assets/img/accessibility.png" alt="accessibility"/> Accessibility</a>
                 <span class="badge badge-primary badge-pill">1 Challenge</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <a href="https://sweetshop.netlify.com/"><img src="assets/img/chrome.png" alt="accessibility"/> Sweet Shop Project <span class="badge badge-primary">New</span></a>
+                <span class="badge badge-primary badge-pill">Use DevTools to test your skills</span>
               </li>
             </ul>
           </p>
