@@ -16,7 +16,7 @@
 			<p>
 				<ul class="list-group">
 					<li class="list-group-item d-flex justify-content-between align-items-center">
-						<a href="2.4.3.php">Let's have some order! <span class="badge badge-primary">New</span></a>
+						<a href="2.4.3.php">Let's have some order!</a>
 					</li>
 				</ul>
 			</p>
