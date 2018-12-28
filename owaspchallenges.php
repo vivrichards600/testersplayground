@@ -12,10 +12,10 @@
 			<p>
 				<ul class="list-group">
 					<li class="list-group-item d-flex justify-content-between align-items-center">
-						<a href="a1-sql-injection.php">A1:SQL Injection <span class="badge badge-primary">New</span></a>
+						<a href="a1-sql-injection.php">A1:SQL Injection</a>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
-						<a href="a2-broken-authentication.php">A2:BrokenAuthentication <span class="badge badge-primary">New</span></a>
+						<a href="a2-broken-authentication.php">A2:BrokenAuthentication</a>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
 						<a href="#" class="disabled">A3:Sensitive Data Exposure</a>
@@ -30,7 +30,7 @@
 						<a href="#" class="disabled">A6:Security Misconfiguration</a>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
-						<a href="a7-xss.php">A7:Cross-Site Scripting (XSS) <span class="badge badge-primary">New</span></a>
+						<a href="a7-xss.php">A7:Cross-Site Scripting (XSS) New</a>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
 						<a href="#" class="disabled">A8:Insecure Deserialization</a>
