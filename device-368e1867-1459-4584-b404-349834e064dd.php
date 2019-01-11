@@ -10,7 +10,7 @@
 		<span tooltip="Chrome DevTools can simulate mobile device rendering - have you googled to see how?" tooltip-position="left"><span class="badge badge-warning badge-large">Hint</span></span>
 	</div>
 
-	<o>How does this page look on a simulated mobile device?</p>
+	<p>How does this page look on a simulated mobile device?</p>
 
 		<div class="table-responsive mobileShow">
 

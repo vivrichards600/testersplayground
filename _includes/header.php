@@ -14,8 +14,7 @@
 	<link href="assets/css/dashboard.css" rel="stylesheet">
 
 	<!-- Jquery reference -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+	<script src="assets/js/jquery.3.3.2.min.js"></script>
 	<!-- tool tips css -->
 	<link href="assets/css/tooltips.css" rel="stylesheet">
 
