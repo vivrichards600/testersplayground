@@ -16,9 +16,8 @@
 			<p>
 				<ul class="list-group">
 					<li class="list-group-item d-flex justify-content-between align-items-center">
-						<a href="openf453d3ff-b3cc-451a-b7de-b0e3c99e8d52.php">Open Sesame</a>
-					</li>
-				
+						<a href="open-f453d3ff-b3cc-451a-b7de-b0e3c99e8d52.php">Open Sesame</a>
+					</li>				
 					<li class="list-group-item d-flex justify-content-between align-items-center">
 						<a href="inspect-c6912ea9-3522-4d90-96c1-5c0b34698614.php">Inspector gadget</a>
 					</li>

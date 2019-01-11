@@ -15,17 +15,9 @@
       <h2>Getting started</h2>
       <div class="table-responsive">
         <p><strong>To get started please ensure you are visiting this web page using the Google Chrome web browser.</strong></p>
-        <p>Next open the developer tools window within Chrome. There are many ways to open developer tools within the browser:
-          <ul>
-            <li>Click the web browser Menu, Select 'More Tools' and then Click on ' Developer tools'</li>
-            <li>Right click an area of the web page and then click on 'Inspect'</li>
-            <li>Windows/Linux Press Ctrl+Shift+I or F12</li>
-            <li>Mac Press Command+Option+I</li>
-          </ul>
-        </p>
-        <p>Once the developer tools window has opened you can then choose to dock the window within the browser sidebar, bottom or undocked</p>
+        
         <p>Click the "Let's go" button below to start.</p>
-        <p><a href="openf453d3ff-b3cc-451a-b7de-b0e3c99e8d52.php" class="btn btn-primary">Let's go</a></p>
+        <p><a href="open-f453d3ff-b3cc-451a-b7de-b0e3c99e8d52.php" class="btn btn-primary">Let's go</a></p>
       </div>
       <a href="devtoolschallenges.php">Click here to view a full list of the DevTools challenges</a>
     </main>
