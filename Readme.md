@@ -12,7 +12,7 @@ This website contains various challenges designed to help testers learn as well 
 - Docker
 
 1. Clone this repository `git clone git@github.com:vivrichards600/testersplayground.git`
-2. Navigate to the cloned the directory
+2. Navigate to the cloned directory
 3. Build the `testersplayground` docker image
 ```
 docker build -t testers-playground:latest .
