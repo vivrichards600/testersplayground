@@ -7,7 +7,7 @@ This website contains various challenges designed to help testers learn as well 
 
 **[View Live Preview](http://playground.epizy.com/)**
 
-## Download and run locally
+## Run this project locally
 ### Prerequisites
 - Docker
 
@@ -25,6 +25,6 @@ docker run -d -p 80:80 testers-playground:latest
 
 ## About
 
-Testers playground is an open source project released under the MIT license, which means you can use it for any purpose, even for commercial projects.
+Testers playground is an open-source project released under the MIT license, which means you can use it for any purpose, even for commercial projects.
 
 Testers Playground was created and is maintained by **[Viv Richards](https://vivrichards.co.uk/)**.
