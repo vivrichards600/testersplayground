@@ -17,11 +17,12 @@ This website contains various challenges designed to help testers learn as well 
 ```
 docker build -t testers-playground:latest .
 ```
-4. Run the newly built `testersplayground` docker images
+4. Run the newly built `testersplayground` docker image
 ```
 docker run -d -p 80:80 testers-playground:latest
 ```
 5. Navigate to `http://localhost/` in your web browser
+6. Have fun!
 
 ## About
 
