@@ -3,6 +3,11 @@ $challengeHeading = "";
 $challengeFeedback = "";
 $challengeUrl = "";
 
+$cookie_name = 'HiddenCode';
+unset($_COOKIE[$cookie_name]);
+// empty value and expiration one hour before
+$res = setcookie($cookie_name, '', time() - 3600);
+
 if ( isset( $_SESSION['ChallengeLink'] ) ) {  
     $challengeUrl = $_SESSION['ChallengeLink']; 
 } else {
@@ -11,6 +16,8 @@ if ( isset( $_SESSION['ChallengeLink'] ) ) {
 	header('Location: index.php');
 }
 ?>
+
+
 
 <?php include '_includes/header.php';?>
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
@@ -27,12 +34,5 @@ if ( isset( $_SESSION['ChallengeLink'] ) ) {
 </main>
 </div>
 </div>
-
-<?php 
-$cookie_name = 'HiddenCode';
-unset($_COOKIE[$cookie_name]);
-// empty value and expiration one hour before
-$res = setcookie($cookie_name, '', time() - 3600);
-?>
 
 <?php include '_includes/footer.php';

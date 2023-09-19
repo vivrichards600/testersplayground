@@ -1,5 +1,10 @@
 <?php session_start();
 
+
+$cookie_name = "HiddenCode";
+$cookie_value = "33fabfd0-14d4-45c7-a933-080bace7da17";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
   if (isset($_POST['valuesadded'])){
 
@@ -44,11 +49,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 </div>
 </div>
 
-
-<?php
-$cookie_name = "HiddenCode";
-$cookie_value = "33fabfd0-14d4-45c7-a933-080bace7da17";
-setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
-?>
 
 <?php include '_includes/footer.php';
