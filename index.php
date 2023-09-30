@@ -25,14 +25,14 @@
                 <a href="devtools.php"><img src="assets/img/chrome.png" alt="chrome"/> Chrome DevTools</a>
                 <span class="badge badge-primary badge-pill">13 Challenges</span>
               </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center">
-                <a href="owasp.php"><img src="assets/img/owasp.png" alt="security"/> OWASP</a>
-                <span class="badge badge-primary badge-pill">3 Challenges</span>
-              </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <a href="accessibility.php"><img src="assets/img/accessibility.png" alt="accessibility"/> Accessibility</a>
-                <span class="badge badge-primary badge-pill">1 Challenge</span>
-              </li>
+<!--              <li class="list-group-item d-flex justify-content-between align-items-center">-->
+<!--                <a href="owasp.php"><img src="assets/img/owasp.png" alt="security"/> OWASP</a>-->
+<!--                <span class="badge badge-primary badge-pill">3 Challenges</span>-->
+<!--              </li>-->
+<!--                <li class="list-group-item d-flex justify-content-between align-items-center">-->
+<!--                  <a href="accessibility.php"><img src="assets/img/accessibility.png" alt="accessibility"/> Accessibility</a>-->
+<!--                <span class="badge badge-primary badge-pill">1 Challenge</span>-->
+<!--              </li>-->
             </ul>
           </p>
           <p>Have ideas for new types of challenges or want to give some feedback? I'd love to hear from you. <a href="https://vivrichards.co.uk" target="_blank">vivrichards.co.uk</a></p>
