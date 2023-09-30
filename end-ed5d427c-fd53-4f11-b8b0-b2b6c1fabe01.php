@@ -11,6 +11,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
       $usermessage = "<p><br><a href='end-ed5d427c-fd53-4f11-b8b0-b2b6c1fabe01.php' class='btn btn-success'>Next Challenge</a></p>";
     }
   }
+
+$cookie_name = "user";
+$cookie_value = "John Doe";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+
 ;?>
 
 <?php include '_includes/header.php';?>
@@ -19,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 <div class="alert alert-success" role="alert">
 		<h4 class="alert-heading">That's all folks!</h4>
 		<p>Good job, you successfully completed all the challenges.</p>
-    <p>You can find out more about Chrome DevTools by visiting the official <a href="https://developers.google.com/web/tools/chrome-devtools/">Chrome DevTools Homepage</a>.
+    <p>You can find out more about Chrome DevTools by visiting the official <a href="https://developers.google.com/web/tools/chrome-devtools/" target="_blank">Chrome DevTools Homepage</a>.
 		<p><img src="assets/img/trophy.png" height="160px" alt="trophy" /></p>
 		<hr>
 		
@@ -32,7 +37,3 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
 <?php include '_includes/footer.php';?>
 
-<?php
-$cookie_name = "user";
-$cookie_value = "John Doe";
-setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day

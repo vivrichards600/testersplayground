@@ -48,9 +48,12 @@
 					<li class="list-group-item d-flex justify-content-between align-items-center">
 						<a href="application-cf590198-e290-4896-a60f-24def18bc101.php">I'm hungry!</a>
 					</li>
-					<li class="list-group-item d-flex justify-content-between align-items-center">
-						<a href="application-02e05778-28e7-483b-b5c1-9054349b0b8b.php">Storage hunter</a>
-					</li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <a href="application-02e05778-28e7-483b-b5c1-9054349b0b8b.php">Storage hunter</a>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <a href="senses-52b3e9ed-db2e-415c-b1ee-7c23f234ea02.php">Hello from Tokyo</a>
+                    </li>
 				</ul>
 			</p>
 
