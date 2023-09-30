@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		<p><img src="assets/img/trophy.png" height="160px" alt="trophy" /></p>
 		<hr>
 		
-    <p>More challenges will be added soon. <a href="accessibility-challenges.php">Click here to view a full list of the Accessibility challenges</a>.</p>
+    <p>More challenges will be added soon. <a href="testersplayground/archived/accessibility-challenges.php">Click here to view a full list of the Accessibility challenges</a>.</p>
 	</div>
 
 </main>

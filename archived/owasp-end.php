@@ -18,9 +18,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 		<h4 class="alert-heading">That's all folks!</h4>
 		<p>Good job, you successfully completed all the challenges.</p>
     <p>You can find out more about the OWASP (Open Web Application Security Project) by visiting the official <a target="_blank" href="https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf"> OWASP top 10</a> page.</p>
-		<p><img src="assets/img/trophy.png" height="160px" alt="trophy" /></p>
+		<p><img src="testersplayground/assets/img/trophy.png" height="160px" alt="trophy" /></p>
 		<hr>
-    <p>More challenges will be added soon. <a href="owaspchallenges.php">Click here to view a full list of the OWASP challenges</a>.</p>
+    <p>More challenges will be added soon. <a href="testersplayground/archived/owaspchallenges.php">Click here to view a full list of the OWASP challenges</a>.</p>
 	
 	</div>
 

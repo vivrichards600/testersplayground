@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	<div class="table-responsive">
 		<h2>Add a new computer</h2>
 
-		<form action="a7-xss.php" method="post">
+		<form action="testersplayground/archived/a7-xss.php" method="post">
 			<div class="form-group col-md-4">
 				<label for="userInput">Computer name</label>
 				<input type="text" size="40" class="form-control" name="userInput" id="userInput">

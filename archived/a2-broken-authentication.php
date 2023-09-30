@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	<div class="table-responsive">
 		<h2>User Login</h2>
 
-		<form action="a2-broken-authentication.php" method="post">
+		<form action="testersplayground/archived/a2-broken-authentication.php" method="post">
 			<div class="form-group col-md-4">
 				<label for="usernameInput">Username</label>
 				<input type="text" size="40" class="form-control" name="userInput" id="usernameInput">

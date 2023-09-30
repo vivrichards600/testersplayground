@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 	<h2>Please select the correct answer</h2>
 	<p>What is wrong with the form above?</p>
 	
-<form action="2.4.3.php" method="post">
+<form action="testersplayground/archived/2.4.3.php" method="post">
 <div class="form-group col-md-4">
   <input type="radio" name="accessibility" value="casing" checked> Text casing is wrong<br>
   <input type="radio" name="accessibility" value="styles"> Input styling isn't right<br>
