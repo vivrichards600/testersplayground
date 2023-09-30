@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 				<img src="assets/img/info.png" alt="info" height="28px" />
 			</span>
 		</h1>
-		<span tooltip="The application tab contains local database storage!" tooltip-position="left">
+		<span tooltip="The application tab contains local storage!" tooltip-position="left">
 			<span class="badge badge-warning badge-large">Hint</span>
 		</span>
 	</div>
@@ -47,13 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 </div>
 
 <script>
-	var db = openDatabase('testersplayground', '1.0', 'Testers playground database', 2 * 1024 * 1024);
-	db.transaction(function(tx) {
-		tx.executeSql('CREATE TABLE IF NOT EXISTS SecretCode (id unique, text)');
-		tx.executeSql('INSERT INTO SecretCode (id, text) VALUES (1, "7d74e2d2-fa15-4d12-bae1-1261501d02fa")');
-	});
-
-
+    localStorage.setItem("HiddenCode", "7d74e2d2-fa15-4d12-bae1-1261501d02fa");
 </script>
 
 <?php include '_includes/footer.php';
