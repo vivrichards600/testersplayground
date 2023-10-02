@@ -23,7 +23,7 @@
           <ul class="list-group">
               <li class="list-group-item d-flex justify-content-between align-items-center">
                 <a href="devtools.php"><img src="assets/img/chrome.png" alt="chrome"/> Chrome DevTools</a>
-                <span class="badge badge-primary badge-pill">13 Challenges</span>
+                <span class="badge badge-primary badge-pill">14 Challenges</span>
               </li>
 <!--              <li class="list-group-item d-flex justify-content-between align-items-center">-->
 <!--                <a href="owasp.php"><img src="assets/img/owasp.png" alt="security"/> OWASP</a>-->

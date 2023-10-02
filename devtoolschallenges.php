@@ -67,6 +67,10 @@
                         <a href="senses-52b3e9ed-db2e-415c-b1ee-7c23f234ea02.php">Hello from Tokyo</a>
                         <span id="senses-52b3e9ed-db2e-415c-b1ee-7c23f234ea02.php" class="badge badge-info badge-pill" style="display:none">Complete</span>
                     </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <a href="network-e33730f6-2df2-44c3-816a-c4a61474dd66.php">iUser</a>
+                        <span id="network-e33730f6-2df2-44c3-816a-c4a61474dd66.php" class="badge badge-info badge-pill" style="display:none">Complete</span>
+                    </li>
 				</ul>
 			</p>
 
@@ -88,7 +92,8 @@
         "network-546b4156-78c7-4542-b72b-0c79adb0bc01.php",
         "application-cf590198-e290-4896-a60f-24def18bc101.php",
         "application-02e05778-28e7-483b-b5c1-9054349b0b8b.php",
-        "senses-52b3e9ed-db2e-415c-b1ee-7c23f234ea02.php"
+        "senses-52b3e9ed-db2e-415c-b1ee-7c23f234ea02.php",
+        "network-e33730f6-2df2-44c3-816a-c4a61474dd66.php"
     ];
     const arrayLength = listOfChallenges.length;
     for (let i = 0; i < arrayLength; i++) {

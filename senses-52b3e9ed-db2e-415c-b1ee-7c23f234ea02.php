@@ -5,7 +5,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
         $valuesadded = $_POST['valuesadded'];
 
         if($valuesadded == 'c0dfa570-bce6-4642-8dee-7daef956efd8') {
-            $_SESSION['ChallengeLink'] = 'end-ed5d427c-fd53-4f11-b8b0-b2b6c1fabe01.php';
+            $_SESSION['ChallengeLink'] = 'network-e33730f6-2df2-44c3-816a-c4a61474dd66.php';
+            $_SESSION['CompletedChallengeLink'] = 'senses-52b3e9ed-db2e-415c-b1ee-7c23f234ea02.php';
             header("Location: ChallengeComplete.php");
         }
     }
@@ -20,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
             <span tooltip="The `Sensors` tab lets users change Location." tooltip-position="left"><span class="badge badge-warning badge-large">Hint</span></span>
         </div>
 
-        <form action="end-ed5d427c-fd53-4f11-b8b0-b2b6c1fabe01.php" method="post">
+        <form action="network-e33730f6-2df2-44c3-816a-c4a61474dd66.php" method="post">
 
             <div id="complete">
                 <div class="row">
