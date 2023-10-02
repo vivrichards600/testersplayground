@@ -51,6 +51,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
 
     <script>
+        let complete = document.querySelector('#complete');
+        complete.style.display = 'none';
+
         function refresh() {
             if (navigator.userAgent.includes("iPad")){
                 localStorage.setItem("network-e33730f6-2df2-44c3-816a-c4a61474dd66.php", "Complete");
