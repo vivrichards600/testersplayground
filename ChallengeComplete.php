@@ -9,7 +9,10 @@ unset($_COOKIE[$cookie_name]);
 $res = setcookie($cookie_name, '', time() - 3600);
 
 if ( isset( $_SESSION['ChallengeLink'] ) ) {  
-    $challengeUrl = $_SESSION['ChallengeLink']; 
+    $challengeUrl = $_SESSION['ChallengeLink'];
+    $completedChallengeURL = $_SESSION['CompletedChallengeLink'];
+    echo "<script>localStorage.setItem('$completedChallengeURL', 'Complete');</script>";
+
 } else {
     // error, no challenge url received
     //return user back to start page!

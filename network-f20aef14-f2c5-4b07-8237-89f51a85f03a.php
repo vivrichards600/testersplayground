@@ -5,9 +5,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
     $valuesadded = $_POST['valuesadded'];
     if($valuesadded == 'ba09c56d-bca3-4637-b502-c633432f8b3f') {
-      //
-      $_SESSION['ChallengeLink'] = 'network-825e28bc-8e1a-4386-9cbb-048c3291a60d.php';
-      header("Location: ChallengeComplete.php");
+        $_SESSION['ChallengeLink'] = 'network-825e28bc-8e1a-4386-9cbb-048c3291a60d.php';
+        $_SESSION['CompletedChallengeLink'] = 'network-f20aef14-f2c5-4b07-8237-89f51a85f03a.php';
+        header("Location: ChallengeComplete.php");
     }
   }
 ;?>

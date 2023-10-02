@@ -8,8 +8,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
       //do nowt
     } else {
       if (!ctype_digit($valuesadded)) {
-        $_SESSION['ChallengeLink'] = 'console-5d63b2b2-3822-4a01-8197-acd8aa7e1343.php';
-        header("Location: ChallengeComplete.php");
+          $_SESSION['ChallengeLink'] = 'console-5d63b2b2-3822-4a01-8197-acd8aa7e1343.php';
+          $_SESSION['CompletedChallengeLink'] = 'elements-0a368ead-6226-4250-87ff-5c2546aa71a5.php';
+          header("Location: ChallengeComplete.php");
       }
     }
   }

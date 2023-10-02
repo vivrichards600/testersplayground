@@ -67,6 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
             if (currentLatitude === tokyoLatitude && currentLongitude === tokyoLongitude) {
                 console.log("Konnichiwa from Tokyo!");
                 complete.style.display = 'block';
+                localStorage.setItem("senses-52b3e9ed-db2e-415c-b1ee-7c23f234ea02.php", "Complete");
             } else {
                 complete.style.display = 'none';
             }

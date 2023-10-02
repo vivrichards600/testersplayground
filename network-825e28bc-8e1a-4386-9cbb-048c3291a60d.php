@@ -48,14 +48,15 @@
 
 <script>
 	function status() {
-		var threeGDiv = document.getElementById('network3g');
+		let threeGDiv = document.getElementById('network3g');
 		threeGDiv.style.display = 'none';
 
 		if (navigator.connection.effectiveType == "2g") {
 			threeGDiv.style.display = 'block';
-		}
+            localStorage.setItem("network-825e28bc-8e1a-4386-9cbb-048c3291a60d.php", "Complete");
+        }
 
-		setTimeout(status, 1000);
+		setTimeout(status, 700);
 	}
 
 	status();

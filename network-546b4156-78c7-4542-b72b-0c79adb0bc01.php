@@ -5,9 +5,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
     $valuesadded = $_POST['valuesadded'];
     if($valuesadded == '1M4GE' || $valuesadded == '1m4ge') {
-      //
-      $_SESSION['ChallengeLink'] = 'application-cf590198-e290-4896-a60f-24def18bc101.php';
-      header("Location: ChallengeComplete.php");
+        $_SESSION['ChallengeLink'] = 'application-cf590198-e290-4896-a60f-24def18bc101.php';
+        $_SESSION['CompletedChallengeLink'] = 'network-546b4156-78c7-4542-b72b-0c79adb0bc01.php';
+        header("Location: ChallengeComplete.php");
     }
   }
 ;?>

@@ -6,8 +6,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
     $valuesadded = $_POST['valuesadded'];
 
     if($valuesadded == '7d74e2d2-fa15-4d12-bae1-1261501d02fa') {
-      $_SESSION['ChallengeLink'] = 'senses-52b3e9ed-db2e-415c-b1ee-7c23f234ea02.php';
-      header("Location: ChallengeComplete.php");
+        $_SESSION['ChallengeLink'] = 'senses-52b3e9ed-db2e-415c-b1ee-7c23f234ea02.php';
+        $_SESSION['CompletedChallengeLink'] = 'application-02e05778-28e7-483b-b5c1-9054349b0b8b.php';
+        header("Location: ChallengeComplete.php");
     }
   }
 ;?>

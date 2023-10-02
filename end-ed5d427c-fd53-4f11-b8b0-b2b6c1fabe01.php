@@ -27,7 +27,6 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1
     <p>You can find out more about Chrome DevTools by visiting the official <a href="https://developers.google.com/web/tools/chrome-devtools/" target="_blank">Chrome DevTools Homepage</a>.
 		<p><img src="assets/img/trophy.png" height="160px" alt="trophy" /></p>
 		<hr>
-		
     <p>More challenges will be added soon. <a href="devtoolschallenges.php">Click here to view a full list of the DevTools challenges</a>.</p>
 	</div>
 

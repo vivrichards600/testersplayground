@@ -35,4 +35,13 @@
 </main>
 </div>
 </div>
+<script>
+    let mql = window.matchMedia("(max-width: 480px)");
+    mql.onchange = (e) => {
+        if (e.matches) {
+            /* the viewport is 480 */
+            localStorage.setItem("device-368e1867-1459-4584-b404-349834e064dd.php", "Complete");
+        }
+    };
+</script>
 <?php include '_includes/footer.php';

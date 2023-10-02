@@ -68,13 +68,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
 <script src="assets/js/devtools-detect.js"></script>
 <script>
-  var complete = document.querySelector('#complete');
-	complete.style.display = window.devtools.open ? 'block' : 'none';
+    const complete = document.querySelector('#complete');
+    complete.style.display = window.devtools.open ? 'block' : 'none';
 
 	window.addEventListener('devtoolschange', function (e) {
 		complete.style.display = e.detail.open ? 'block' : 'none';
+        if(e.detail.open) {
+            localStorage.setItem("open-f453d3ff-b3cc-451a-b7de-b0e3c99e8d52.php", "Complete");
+        }
 	});
-
 </script>
 
 <?php include '_includes/footer.php';

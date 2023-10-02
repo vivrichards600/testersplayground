@@ -7,6 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
     if($valuesadded == '452464bc-6ed4-41dd-a48c-67af0ff70196') {
       $_SESSION['ChallengeLink'] = 'inspect-7e32aa77-f2a9-4080-a313-78c922260558.php';
+      $_SESSION['CompletedChallengeLink'] = 'inspect-c6912ea9-3522-4d90-96c1-5c0b34698614.php';
       header("Location: ChallengeComplete.php");
     }
   }
