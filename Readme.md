@@ -5,7 +5,7 @@ This website contains various challenges designed to help testers learn as well 
 
 ## Preview
 
-**[View Live Preview]([http://playground.epizy.com/](http://playground.vivrichards.co.uk/))**
+**[View Live Preview](http://playground.vivrichards.co.uk/)**
 
 ## Run this project locally
 ### Prerequisites
