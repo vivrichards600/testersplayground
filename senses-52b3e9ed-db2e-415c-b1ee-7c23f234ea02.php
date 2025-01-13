@@ -23,10 +23,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
         <form action="network-e33730f6-2df2-44c3-816a-c4a61474dd66.php" method="post">
 
+        <script src="assets/js/confetti.browser.js"></script>
+        <style>
+
+        .challenge-complete {
+            text-align: center;
+        }
+        .challenge-complete h4 {
+            color: #E91E63 !important;
+            font-weight:bold;
+        }
+        </style>
             <div id="complete">
                 <div class="row">
                     <div class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
-                        <div class="alert alert-success" role="alert">
+                        <div class="challenge-complete" role="alert">
                             <h4 class="alert-heading">Challenge complete!</h4>
                             <p>Good job, you successfully completed the challenge.</p>
                             <img src="assets/img/trophy.png" height="160px" />
@@ -48,6 +59,18 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
 
     <script>
+        let hasFired = false; // Flag to track if the confetti has already fired
+        function fireConfetti() {
+          if (!hasFired) {
+            hasFired = true; // Set the flag to true to prevent future calls
+            confetti({
+              particleCount: 1000,
+              spread: 130,
+              origin: { y: 0.6 }
+            });
+          }
+        }
+
         let complete = document.querySelector('#complete');
         complete.style.display = 'none';
 
@@ -68,9 +91,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
             if (currentLatitude === tokyoLatitude && currentLongitude === tokyoLongitude) {
                 console.log("Konnichiwa from Tokyo!");
                 complete.style.display = 'block';
+                fireConfetti();
                 localStorage.setItem("senses-52b3e9ed-db2e-415c-b1ee-7c23f234ea02.php", "Complete");
             } else {
                 complete.style.display = 'none';
+                hasFired = false;
             }
         }
 

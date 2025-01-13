@@ -23,18 +23,38 @@ if ( isset( $_SESSION['ChallengeLink'] ) ) {
 
 
 <?php include '_includes/header.php';?>
+<script src="assets/js/confetti.browser.js"></script>
+<style>
+
+.challenge-complete {
+    text-align: center;
+}
+.challenge-complete h4 {
+    color: #E91E63 !important;
+    font-weight:bold;
+}
+</style>
+
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
 
-	<div class="alert alert-success" role="alert">
+	<div class="challenge-complete" role="alert">
 		<h4 class="alert-heading">Challenge complete!</h4>
 		<p>Good job, you successfully completed the challenge.</p>
 		<img src="assets/img/trophy.png" height="160px" alt="trophy"/>
 		<hr>
 		<a href='<?php echo $challengeUrl;?>' class='btn btn-success'>Next challenge</a>
 	</div>
-
-
 </main>
+<script>
+    // Trigger confetti on page load
+    window.onload = function () {
+      confetti({
+        particleCount: 1000,
+        spread: 130,
+        origin: { y: 0.6 }
+      });
+    };
+</script>
 </div>
 </div>
 

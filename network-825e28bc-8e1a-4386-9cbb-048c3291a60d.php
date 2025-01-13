@@ -24,7 +24,18 @@
 				<p>Remember to un-throttle your browser network within the 'Network' tab after you have moved to the next challenge.</p>
 			</div>
 
-			<div class="alert alert-success" role="alert">
+            <script src="assets/js/confetti.browser.js"></script>
+            <style>
+
+            .challenge-complete {
+                text-align: center;
+            }
+            .challenge-complete h4 {
+                color: #E91E63 !important;
+                font-weight:bold;
+            }
+            </style>
+			<div class="challenge-complete" role="alert">
 				<h4 class="alert-heading">Challenge complete!</h4>
 				<p>Good job, you successfully completed the challenge.</p>
 				<img src="assets/img/trophy.png" height="160px" />
@@ -47,13 +58,27 @@
 
 
 <script>
+    let hasFired = false; // Flag to track if the confetti has already fired
+    function fireConfetti() {
+      if (!hasFired) {
+        hasFired = true; // Set the flag to true to prevent future calls
+        confetti({
+          particleCount: 1000,
+          spread: 130,
+          origin: { y: 0.6 }
+        });
+      }
+    }
+
 	function status() {
 		let threeGDiv = document.getElementById('network3g');
 		threeGDiv.style.display = 'none';
-
 		if (navigator.connection.effectiveType == "2g") {
 			threeGDiv.style.display = 'block';
+			fireConfetti();
             localStorage.setItem("network-825e28bc-8e1a-4386-9cbb-048c3291a60d.php", "Complete");
+        } else {
+            hasFired = false;
         }
 
 		setTimeout(status, 700);

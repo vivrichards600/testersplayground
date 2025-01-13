@@ -27,11 +27,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
 		
 		<form action="device-368e1867-1459-4584-b404-349834e064dd.php" method="post">
-			
+
+<script src="assets/js/confetti.browser.js"></script>
+<style>
+
+.challenge-complete {
+    text-align: center;
+}
+.challenge-complete h4 {
+    color: #E91E63 !important;
+    font-weight:bold;
+}
+</style>
+
 <div id="complete">
 	<div class="row">
 		<div class="col-3">
-			<div class="alert alert-success text-center" role="alert">
+			<div class="challenge-complete" role="alert">
 				<h4 class="alert-heading">Challenge complete!</h4>
 				<p>Good job, you successfully completed the challenge.</p>
 				<img src="assets/img/trophy.png" height="160px" />
@@ -68,15 +80,32 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
 <script src="assets/js/devtools-detect.js"></script>
 <script>
+
+    let hasFired = false; // Flag to track if the confetti has already fired
+
+    function fireConfetti() {
+      if (!hasFired) {
+        hasFired = true; // Set the flag to true to prevent future calls
+        confetti({
+          particleCount: 1000,
+          spread: 130,
+          origin: { y: 0.6 }
+        });
+      }
+    }
     const complete = document.querySelector('#complete');
     complete.style.display = window.devtools.open ? 'block' : 'none';
 
 	window.addEventListener('devtoolschange', function (e) {
 		complete.style.display = e.detail.open ? 'block' : 'none';
         if(e.detail.open) {
+            fireConfetti(); // This will fire the confetti
             localStorage.setItem("open-f453d3ff-b3cc-451a-b7de-b0e3c99e8d52.php", "Complete");
+        } else {
+            hasFired = false;
         }
 	});
 </script>
+
 
 <?php include '_includes/footer.php';

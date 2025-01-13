@@ -20,8 +20,19 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1
 
 <?php include '_includes/header.php';?>
 <main role="main" class="col-md-12 ml-sm-auto col-lg-12 pt-3 px-4">
-	
-<div class="alert alert-success" role="alert">
+
+<script src="assets/js/confetti.browser.js"></script>
+<style>
+
+.challenge-complete {
+    text-align: center;
+}
+.challenge-complete h4 {
+    color: #E91E63 !important;
+    font-weight:bold;
+}
+</style>
+<div class="challenge-complete" role="alert">
 		<h4 class="alert-heading">That's all folks!</h4>
 		<p>Good job, you successfully completed all the challenges.</p>
     <p>You can find out more about Chrome DevTools by visiting the official <a href="https://developers.google.com/web/tools/chrome-devtools/" target="_blank">Chrome DevTools Homepage</a>.
@@ -33,6 +44,15 @@ setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1
 </main>
 </div>
 </div>
-
+<script>
+    // Trigger confetti on page load
+    window.onload = function () {
+      confetti({
+        particleCount: 1000,
+        spread: 130,
+        origin: { y: 0.6 }
+      });
+    };
+</script>
 <?php include '_includes/footer.php';?>
 
